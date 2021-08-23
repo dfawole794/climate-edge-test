@@ -21,13 +21,13 @@ Install dependencies:
 
 
 ### Bugs to find
-1: Unable to broadcast message due to ```CORS error```
+1: ```Unable to broadcast message due to``` ```CORS error```
 
-2: Schecduled Broadcats pop-up is not displaying scheduled broadcats
+2: ```Schecduled Broadcast pop-up is not displaying scheduled broadcats```
 
-3: From saved series pop-up, Add message tab is not functioning 
+3: ```From saved series pop-up, Add message tab is not functioning``` 
 
-4: Clicking "+" button to add more content to a newly created Series is complying the texts in both content text area to one
+4: ```Clicking "+" button to add more content to a newly created Series is complying the texts in both content text area to one```
 
 
 
