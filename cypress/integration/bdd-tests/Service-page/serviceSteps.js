@@ -25,12 +25,9 @@ Then('Broadcast text area must be displayed', () => {
 	Service.broadCastTextAreaIsDisplayed();
 });
 
-Given(
-	'user fill Broadcast text area without exceeding the maximum limit',
-	() => {
-		Service.populateTextArea();
-	}
-);
+Given('user fill Broadcast text area exceeding the maximum limit', () => {
+	Service.populateTextArea();
+});
 
 Then('character counter must not be highlighted', () => {
 	Service.countCharactersUnderLimits();

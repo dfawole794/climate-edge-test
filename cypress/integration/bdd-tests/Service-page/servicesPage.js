@@ -1,5 +1,4 @@
-import { broadcastMsg } from '../../../fixtures/config';
-import Homepage from '../Home-Page/homePage';
+import { broadcastMsg } from '../../../fixtures/broadcast-data';
 
 class ServicePage {
 	elementsLocator = {

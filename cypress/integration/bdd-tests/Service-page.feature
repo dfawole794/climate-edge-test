@@ -6,11 +6,11 @@ Feature: Service Page
     “+” button under the text area is also highlighted when exceeding the maximum limit
 
 
-  Scenario Outline: Broadcast character limits
+  Scenario: Broadcast character limits
     Given user is on Climate Edge home page
     And user clicks View button on Broadcast dialog box
     Then Broadcast text area must be displayed
-    Given user fill Broadcast text area without exceeding the maximum limit
+    Given user fill Broadcast text area exceeding the maximum limit
     Then character counter must not be highlighted
     But if user fill Broadcast text area exceeding the maximum limit
     Then character counter and + button must be highlighted
