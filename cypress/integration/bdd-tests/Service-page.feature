@@ -5,6 +5,7 @@ Feature: Service Page
     Broadcast text area changes colour when exceeding the maximum limit
     “+” button under the text area is also highlighted when exceeding the maximum limit
 
+
   Scenario Outline: Broadcast character limits
     Given user is on Climate Edge home page
     And user clicks View button on Broadcast dialog box
@@ -13,14 +14,7 @@ Feature: Service Page
     Then character counter must not be highlighted
     But if user fill Broadcast text area exceeding the maximum limit
     Then character counter and + button must be highlighted
-    Given user click Send now button to broadcast message
-    Then success notification '<msg>' must be displayed
 
-    Examples:
-      |    msg         | 
-      | Broadcast sent!| 
-
-    
 
   Scenario: click Add Series display form
     Given user is on Climate Edge home page
