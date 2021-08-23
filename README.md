@@ -23,7 +23,7 @@ All test files are in cypress/integration/bdd-tests folder
 ### Bugs to find
     1: ```Unable to broadcast message due to``` ```CORS error```
 
-    2: ```Schecduled Broadcast pop-up is not displaying scheduled broadcats```
+    2: ```Scheduled Broadcast pop-up is not displaying scheduled broadcast```
 
     3: ```From saved series pop-up, Add message tab is not functioning``` 
 
@@ -45,9 +45,9 @@ System  The details of the forecast are….
 
 
 
-    Given user request forcast from System
+    Given user request forecast from System
 
-      Assert reciepient [System]
+      Assert recipient [System]
 
       Assert message sent to System contains [Forecast]
 
@@ -60,7 +60,7 @@ System  The details of the forecast are….
 
       Assert User message received contains[The forecast is x, y, z. For more info reply A]
 
-      User reply [A] to reciepient [System]
+      User reply [A] to recipient [System]
 
 
     Then System should reply with forecast details
@@ -70,7 +70,7 @@ System  The details of the forecast are….
       Assert message body sent to [User] contains [The details of the forecast are….] 
 
 
-    Then user should recieve forecast details
+    Then user should receive forecast details
 
       Assert send from [System]
 
