@@ -4,15 +4,14 @@
 All test files are in cypress/integration/bdd-tests folder
 
 ### Requirements
-  - node.js v12 or hiher
+  - node.js v12 or higher
   - clone the repo
 
-Install dependencies:
+### Install dependencies:
 
-```
 1: cd into the climate-edge-test folder
-2: run npm install from inside climate-edge-test folder
-```
+
+2: run ```npm install``` from inside climate-edge-test folder
 
 ##### Running the testing
 1:```npm run cy:run``` to run the test in headless mode
@@ -83,9 +82,9 @@ Why does the textarea counter not start from 0? ==> ``` Textarea has a default/h
 
 Are there any design inconsistencies? ==> 
 
-   1: ``` Fold-out menu(Hamburger) are not consistent ```
+   1: ``` Fold-out menu(Hamburger) are not consistent throughout the web app ```
 
-   2: ``` Clicking Your Services from the side menu bar is not function ```
+   2: ``` Clicking Your Services from the side menu bar is not functioning ```
 
 
 
