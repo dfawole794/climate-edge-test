@@ -78,9 +78,13 @@ Then user should recieve forecast details
 
 
 ### Bonus round (optional)
-Why does the textarea counter not start from 0? ==> Textarea has a default/hardcoded characters(#GCT*BC)
+Why does the textarea counter not start from 0? ==> ``` Textarea has a default/hardcoded characters(#GCT*BC) ```
 
-Are there any design inconsistencies? ==> 1:Fold-out menu(Hamburger) are not consistent. 2:Clicking Your Services from the side menu bar is not function
+Are there any design inconsistencies? ==> 
+
+   1: ``` Fold-out menu(Hamburger) are not consistent ```
+
+   2: ``` Clicking Your Services from the side menu bar is not function ```
 
 
 
