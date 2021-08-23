@@ -22,13 +22,13 @@ Install dependencies:
 
 
 ### Bugs to find
-1: ```Unable to broadcast message due to``` ```CORS error```
+    1: ```Unable to broadcast message due to``` ```CORS error```
 
-2: ```Schecduled Broadcast pop-up is not displaying scheduled broadcats```
+    2: ```Schecduled Broadcast pop-up is not displaying scheduled broadcats```
 
-3: ```From saved series pop-up, Add message tab is not functioning``` 
+    3: ```From saved series pop-up, Add message tab is not functioning``` 
 
-4: ```Clicking "+" button to add more content to a newly created Series is complying the texts in both content text area to one```
+    4: ```Clicking "+" button to add more content to a newly created Series is complying the texts in both content text area to one```
 
 
 
@@ -46,36 +46,36 @@ System  The details of the forecast are….
 
 
 
-Given user request forcast from System
+    Given user request forcast from System
 
-    Assert reciepient [System]
+      Assert reciepient [System]
 
-    Assert message sent to System contains [Forecast]
+      Assert message sent to System contains [Forecast]
 
-    Assert system message to [User] contains [The forecast is x, y, z. For more info reply A]
-
-
-Given user reply A
-
-    Assert sender [System]
-
-    Assert User message received contains[The forecast is x, y, z. For more info reply A]
-
-    User reply [A] to reciepient [System]
+      Assert system message to [User] contains [The forecast is x, y, z. For more info reply A]
 
 
-Then System should reply with forecast details
+    Given user reply A
 
-    Assert reciepient [User]
+      Assert sender [System]
 
-    Assert message body sent to [User] contains [The details of the forecast are….] 
+      Assert User message received contains[The forecast is x, y, z. For more info reply A]
+
+      User reply [A] to reciepient [System]
 
 
-Then user should recieve forecast details
+    Then System should reply with forecast details
 
-    Assert send from [System]
+      Assert reciepient [User]
 
-    Assert message body [The details of the forecast are….]
+      Assert message body sent to [User] contains [The details of the forecast are….] 
+
+
+    Then user should recieve forecast details
+
+      Assert send from [System]
+
+      Assert message body [The details of the forecast are….]
 
 
 ### Bonus round (optional)
