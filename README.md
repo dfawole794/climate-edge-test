@@ -5,6 +5,7 @@ All test files are in cypress/integration/bdd-tests folder
 
 ### Requirements
   - node.js v12 or hiher
+  - clone the repo
 
 Install dependencies:
 
